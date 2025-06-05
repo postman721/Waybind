@@ -78,7 +78,7 @@ pkill -f waybind.py
 ./waybind.py &
 ```
 
-##### Note. Do not stay focus on the initial terminal that started waybind, applies to non-systemd and systemd ways. By staying the focus somehow breaks. After moving to another program the issue is gone.
+##### Note. Do not stay focus on the initial terminal that started waybind, applies to non-systemd and systemd ways. By completely staying in the initial terminal, the focus somehow breaks. After moving to another program the issue is gone.
 
 ### For Systemd
 
