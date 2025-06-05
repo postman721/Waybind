@@ -1,7 +1,7 @@
 # 🧭 Waybind – Global Keybind Launcher for Linux
 
 **Waybind** is a lightweight global keyboard shortcut daemon written in Python.  
-It lets you define custom keybindings that launch commands, even when another window is in focus.  
+It lets you define custom keybindings that launch commands.
 Works on both **X11** and **Wayland**, depending on permissions and compositor behavior.
 
 ---
