@@ -13,7 +13,7 @@ Works on both **X11** and **Wayland**, depending on permissions and compositor b
 - Global keybinding support using low-level input events
 - Supports combinations like `CTRL+ALT+T`, `SUPER+W`, etc.
 - Lightweight and daemonized – runs quietly in the background
-- No `systemd` or desktop environment integration forced/required (but recommended)
+- No `systemd` or desktop environment integration forced/required (but recommended).
 - Minimal dependencies (Python only)
 
 ---
