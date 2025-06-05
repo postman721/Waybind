@@ -3,5 +3,5 @@ bindings:
   "ALT+S": "pavucontrol"
   "ALT+F": "firefox"
   "CTRL+G": "geany"
-  "SUPER+M": "terminal"
-  "SUPER+B": "albix"
+  "SUPER+T": "terminal"
+  "SUPER+A": "albix"
