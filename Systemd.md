@@ -1,7 +1,7 @@
 
 ## Systemd integration - systemd.sh is Wayland specific.
 
-Remember pointing to /opt/waybind.sh by default. Unless you edit systemd.sh.
+Remember: Script is pointing to /opt/waybind.sh by default. Unless you edit systemd.sh.
 
     chmod +x systemd.sh
 
