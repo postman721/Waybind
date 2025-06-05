@@ -78,6 +78,8 @@ pkill -f waybind.py
 ./waybind.py &
 ```
 
+##### Note. Do not stay focus on the initial terminal that started waybind, applies to non-systemd and systemd ways. By staying the focus somehow breaks. After moving to another program the issue is gone.
+
 ### For Systemd
 
 See Systemd.md for integration. Remember to adjust the script path to your own preference, or just use the same as I do, /opt.
