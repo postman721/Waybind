@@ -16,7 +16,7 @@ Remember: Script is pointing to /opt/waybind.sh by default. Unless you edit syst
 
     To check status:   systemctl --user status waybind.service
 
-## Make sure it runs on system start, this should be done by default with systemd.sh:
+## If you want to make sure it runs on system start, this should be done by default with systemd.sh:
 
         systemctl --user enable waybind.service
 
