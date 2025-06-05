@@ -29,7 +29,7 @@ sudo apt install python3 python3-evdev python3-yaml
 
 🔒 Permissions Required
 
-Waybinder listens to raw input devices under /dev/input/.
+Waybind listens to raw input devices under /dev/input/.
 You must give your user permission to access them.
 Add your user to the input group:
 
@@ -38,7 +38,7 @@ sudo usermod -aG input $USER
 newgrp input
 groups
 ```
-Alternatively, you can run it with sudo, but this is not recommended long term.
+Alternatively, you can run it with sudo, but this is not recommended in long term.
 
 ⚙️ Configuration
 
