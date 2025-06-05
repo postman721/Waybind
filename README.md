@@ -38,7 +38,7 @@ sudo usermod -aG input $USER
 newgrp input
 groups
 ```
-Alternatively, you can run it with sudo, but this is not recommended in long term.
+Alternatively, you can run the waybind with sudo, but this is not recommended in long term.
 
 ## ⚙️ Configuration
 
