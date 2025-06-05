@@ -14,14 +14,12 @@ Remember: Script is pointing to /opt/waybind.sh by default. Unless you edit syst
 
     The service will automatically run on login.
 
-    To check status:
+    To check status:   systemctl --user status waybind.service
 
-systemctl --user status waybind.service
+## Make sure it runs on system start, this should be done by default with systemd.sh:
 
-## Make sure it runs on system start:
-
-systemctl --user enable waybind.service
+        systemctl --user enable waybind.service
 
 To stop it(and relaunch if you make keybinding changes):
 
-systemctl --user restart waybind.service
+    systemctl --user restart waybind.service
