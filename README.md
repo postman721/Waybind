@@ -27,7 +27,7 @@ sudo apt update
 sudo apt install python3 python3-evdev python3-yaml
 ```
 
-🔒 Permissions Required
+## 🔒 Permissions Required
 
 Waybind listens to raw input devices under /dev/input/.
 You must give your user permission to access them.
@@ -40,7 +40,7 @@ groups
 ```
 Alternatively, you can run it with sudo, but this is not recommended in long term.
 
-⚙️ Configuration
+## ⚙️ Configuration
 
 Create a configuration file in your home directory named config.yaml. See my provided example from this repository.
 
@@ -51,17 +51,17 @@ Create a configuration file in your home directory named config.yaml. See my pro
     Commands must be shell-executable.
 
 
-📂 Running
+## 📂 Running
 
 Make the script executable:
 ```bash
-chmod +x waybinder.py
+chmod +x waybind.py
 ```
 
 Then run it as a background process.
 
 ```bash
-./waybinder.py &
+./waybind.py &
 ```
 
 🔁 Updating Keybindings
